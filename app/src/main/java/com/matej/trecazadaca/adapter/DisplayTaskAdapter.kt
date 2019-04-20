@@ -30,9 +30,9 @@ class DisplayTaskAdapter(
         this.taskListener = taskListener
     }
 
-    fun refreshData(books: MutableList<Task>) {
+    fun refreshData(tasks: MutableList<Task>) {
         this.tasks.clear()
-        this.tasks.addAll(books)
+        this.tasks.addAll(tasks)
         this.notifyDataSetChanged()
     }
 
