@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginBottom="@dimen/marginBottom"
+>
+
+    <EditText
+            android:id="@+id/taskTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/itemHeight"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="@dimen/itemMargin"
+            android:layout_marginBottom="@dimen/itemMargin"
+            android:hint="Enter task title"
+    />
+
+    <EditText
+            android:id="@+id/taskDescription"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/itemHeight"
+            app:layout_constraintTop_toBottomOf="@id/taskTitle"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="@dimen/itemMargin"
+            android:layout_marginBottom="@dimen/itemMargin"
+            android:hint="Enter task description"
+    />
+
+    <Spinner
+            android:id="@+id/prioritySpinner"
+            android:layout_width="@dimen/spinnerWidth"
+            android:layout_height="@dimen/itemHeight"
+            app:layout_constraintTop_toBottomOf="@+id/taskDescription"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="@dimen/itemMargin"
+            android:layout_marginBottom="@dimen/itemMargin"
+    />
+
+    <Button
+            android:id="@+id/addTaskAction"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="@dimen/itemHeight"
+            app:layout_constraintTop_toBottomOf="@id/prioritySpinner"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="@dimen/itemMargin"
+            android:text="Add task"
+    />
+</androidx.constraintlayout.widget.ConstraintLayout>

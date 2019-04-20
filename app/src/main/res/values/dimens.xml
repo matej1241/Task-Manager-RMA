@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardHeight">150dp</dimen>
+    <dimen name="cardMarginTop">10dp</dimen>
+    <dimen name="marginRight">10dp</dimen>
+    <dimen name="marginLeft">10dp</dimen>
+    <dimen name="marginTop">10dp</dimen>
+    <dimen name="marginBottom">10dp</dimen>
+    <dimen name="viewPagerHeight">0dp</dimen>
+    <dimen name="itemHeight">50dp</dimen>
+    <dimen name="itemMargin">20dp</dimen>
+    <dimen name="spinnerWidth">250dp</dimen>
+    <dimen name="buttonWidth">150dp</dimen>
+    <dimen name="cardElevation">10dp</dimen>
+    <dimen name="viewWidth">10dp</dimen>
+    <dimen name="textMargin">10dp</dimen>
+    <dimen name="textSize">25dp</dimen>
+    <dimen name="descriptionHeight">75dp</dimen>
+    <dimen name="descriptionTextSize">15dp</dimen>
+</resources>
